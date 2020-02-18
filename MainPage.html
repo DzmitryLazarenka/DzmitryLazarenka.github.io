@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru, en">
+<html lang="ru", lang="en">
+
 
 <head>
   <meta charset="UTF-8">
@@ -105,7 +106,7 @@
           <div class="textdetour">Направления бизнеса</div>
           <h2 class="title_on_slides">а-100 комфорт</h2>
           <a href="#!" class="moredetails">Подробнее</a>
-          <img src="img/First.jpg" style="width:100%">
+          <img src="img/First.jpg" style="width:100%" alt="First">
           <div class="links_on-slider">
             <a href="#!" class="slider_vk"></a>
             <a href="#!" class="slider_fb"></a>
@@ -116,7 +117,7 @@
           <div class="textdetour">Направления бизнеса</div>
           <h2 class="title_on_slides">A-100 ДЕВЕЛОПМЕНТ</h2>
           <a href="#!" class="moredetails">Подробнее</a>
-          <img src="img/Firstslide.jpg" style="width:100%">
+          <img src="img/Firstslide.jpg" style="width:100%" alt="Firstslide">
           <div class="links_on-slider">
             <a href="#!" class="slider_vk"></a>
             <a href="#!" class="slider_fb"></a>
@@ -127,7 +128,7 @@
           <div class="textdetour">Направления бизнеса</div>
           <h2 class="title_on_slides">Сбк завод</h2>
           <a href="#!" class="moredetails">Подробнее</a>
-          <img src="img/Firstsl.jpg" style="width:100%">
+          <img src="img/Firstsl.jpg" style="width:100%" alt="Firstsl" >
           <div class="links_on-slider">
             <a href="#!" class="slider_vk"></a>
             <a href="#!" class="slider_fb"></a>
@@ -138,7 +139,7 @@
           <div class="textdetour">Направления бизнеса</div>
           <h2 class="title_on_slides">?</h2>
           <a href="#!" class="moredetails">Подробнее</a>
-          <img src="img/foursl.jpg" style="width:100%">
+          <img src="img/foursl.jpg" style="width:100%" alt="foursl">
           <div class="links_on-slider">
             <a href="#!" class="slider_vk"></a>
             <a href="#!" class="slider_fb"></a>
@@ -353,10 +354,10 @@
           <h2 class="contscts_title">контакты организации</h2>
           <p class="text_in_sectionfive">В нашей организации нет ворчливых менеджеров, вы можете позвонить или написать на почту по указанным контактам</p>
           <form action="#!" class="form">
-            <label class="getting" for="mail">Введите ваше имя</label>
+            <label class="getting" for="name">Введите ваше имя</label>
             <input class="string" id="name" type="text" name="name" value="" required>
 
-            <label class="getting" for="email">Введите ваш email</label>
+            <label class="getting" for="mailtwo">Введите ваш email</label>
             <input class="string" id="mailtwo" type="email" name="mail" value="" required>
 
             <label class="getting" for="message"></label>
@@ -369,8 +370,8 @@
 
 
               <div class="first_check">
-                <label for="checkbox" class="getting">Получить ответ на email:</label>
-                <div class="next_br">
+                <label for="next_br" class="getting">Получить ответ на email:</label>
+                <div class="next_br" id="next_br">
                   <input class="checkboxbox" type="checkbox" name="field1" value="Yes" id="first-yes">
                   <label for="first-yes" class="getting">Да</label>
                   <input class="checkboxbox" type="checkbox" name="field2" value="No" id="first-no">
@@ -383,7 +384,7 @@
 
               <div class="first_check">
                 <label for="radio" class="getting">Получить ответ на email:</label>
-                <div class="next_br">
+                <div class="next_br" id="radio">
                   <input class="radio" type="radio" name="radio" id="radioyes" value="Yes">
                   <label for="radioyes" class="getting">Да</label>
                   <input class="radio" type="radio" name="radio" id="radiono" value="No">
@@ -392,12 +393,12 @@
               </div>
             </div>
 
-            <label for="checkbox" class="getting">Получить ответ на email:</label>
-            <div class="second_check">
+            <label for="check" class="getting">Получить ответ на email:</label>
+            <div class="second_check" id="check">
               <input class="checkboxbox" type="checkbox" name="al1" value="Yes" id="second-yes">
-              <label for="first-yes" class="getting">Да</label>
+              <label for="second-yes" class="getting">Да</label>
               <input class="checkboxbox" type="checkbox" name="al2" value="No" id="second-no">
-              <label for="first-no" class="getting">Нет</label>
+              <label for="second-no" class="getting">Нет</label>
             </div>
 
             <button type="submit" class="submit">Отправить</button>
@@ -407,7 +408,7 @@
           <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2007.6629652067577!2d27.648464115411638!3d53.969804135529934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc8c4a4c9f843%3A0xb897a64f7b53bcfb!2z0JHQvtGA0L7QstCw0Y8g0YPQuy4gNywg0JLQsNC70LXRgNGM0Y_QvdC-0LLQviAyMjMwNTM!5e1!3m2!1sru!2sby!4v1581682284822!5m2!1sru!2sby"
-              width="565" height="659" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+              width="565" height="659" style="border:0;" allowfullscreen=""></iframe></div>
           <div class="box_contacts">
             <h4 class="title_near_maps">компания «А-100 Девелопмент»</h4>
             <p class="contact">Тел. / Факс</p>
@@ -436,7 +437,7 @@
   <!--End five section-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/main.js" charset="utf-8"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
